@@ -1,24 +1,24 @@
 @charset 'utf-8';
 
-$imgSRC: '../imgs/';
+$imgSRC: './imgs/';
 
 $osIconList: (
-  'beos': $imgSRC + 'os/beOS.png',
-  'centos': $imgSRC + 'os/centos.png',
-  'debian': $imgSRC + 'os/debian.png',
-  'fedora': $imgSRC + 'os/fedora.png',
-  'freebsd': $imgSRC + 'os/freebsd.png',
-  'mandriva': $imgSRC + 'os/mandriva.png',
-  'os2': $imgSRC + 'os/os2.png',
-  'redhat': $imgSRC + 'os/redhat.png',
-  'suse': $imgSRC + 'os/suse.png',
-  'symbian': $imgSRC + 'os/symbian.png',
-  'ubuntu': $imgSRC + 'os/ubuntu.png',
-  'unix': $imgSRC + 'os/unix.png',
-  'linux': $imgSRC + 'os/linux.png',
-  'windows': $imgSRC + 'os/windows.png',
-  'android': $imgSRC + 'os/android.png',
-  'ios': $imgSRC + 'os/ios.png',
-  'osx': $imgSRC + 'os/osx.png',
-  'aix': $imgSRC + 'os/aix.png',
+  'beos': $imgSRC + 'beOS.png',
+  'centos': $imgSRC + 'centos.png',
+  'debian': $imgSRC + 'debian.png',
+  'fedora': $imgSRC + 'fedora.png',
+  'freebsd': $imgSRC + 'freebsd.png',
+  'mandriva': $imgSRC + 'mandriva.png',
+  'os2': $imgSRC + 'os2.png',
+  'redhat': $imgSRC + 'redhat.png',
+  'suse': $imgSRC + 'suse.png',
+  'symbian': $imgSRC + 'symbian.png',
+  'ubuntu': $imgSRC + 'ubuntu.png',
+  'unix': $imgSRC + 'unix.png',
+  'linux': $imgSRC + 'linux.png',
+  'windows': $imgSRC + 'windows.png',
+  'android': $imgSRC + 'android.png',
+  'ios': $imgSRC + 'ios.png',
+  'osx': $imgSRC + 'osx.png',
+  'aix': $imgSRC + 'aix.png',
 );

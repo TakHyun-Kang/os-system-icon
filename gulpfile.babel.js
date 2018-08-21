@@ -10,7 +10,7 @@ import imagemin from 'gulp-imagemin';
 const DIR = {
   EX_SRC: 'example/src',
   SRC: 'src',
-  IMG: 'imgs',
+  IMG: 'src/imgs',
   DEST: 'dist'
 };
 
@@ -18,7 +18,7 @@ const SRC = {
   EX_SASS: DIR.EX_SRC + '/*.scss',
   EX_HTML: DIR.EX_SRC + '/*.html',
   SASS: DIR.SRC + '/*.scss',
-  IMAGES: DIR.IMG + '/os/*'
+  IMAGES: DIR.IMG + '/*'
 };
 
 const DEST = {

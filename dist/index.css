@@ -15,7 +15,7 @@ i.majac.icon-beos {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/beOS.png);
+  background-image: url(./imgs/beOS.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -24,7 +24,7 @@ i.majac.icon-centos {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/centos.png);
+  background-image: url(./imgs/centos.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -33,7 +33,7 @@ i.majac.icon-debian {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/debian.png);
+  background-image: url(./imgs/debian.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -42,7 +42,7 @@ i.majac.icon-fedora {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/fedora.png);
+  background-image: url(./imgs/fedora.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -51,7 +51,7 @@ i.majac.icon-freebsd {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/freebsd.png);
+  background-image: url(./imgs/freebsd.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -60,7 +60,7 @@ i.majac.icon-mandriva {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/mandriva.png);
+  background-image: url(./imgs/mandriva.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -69,7 +69,7 @@ i.majac.icon-os2 {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/os2.png);
+  background-image: url(./imgs/os2.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -78,7 +78,7 @@ i.majac.icon-redhat {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/redhat.png);
+  background-image: url(./imgs/redhat.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -87,7 +87,7 @@ i.majac.icon-suse {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/suse.png);
+  background-image: url(./imgs/suse.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -96,7 +96,7 @@ i.majac.icon-symbian {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/symbian.png);
+  background-image: url(./imgs/symbian.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -105,7 +105,7 @@ i.majac.icon-ubuntu {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/ubuntu.png);
+  background-image: url(./imgs/ubuntu.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -114,7 +114,7 @@ i.majac.icon-unix {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/unix.png);
+  background-image: url(./imgs/unix.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -123,7 +123,7 @@ i.majac.icon-linux {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/linux.png);
+  background-image: url(./imgs/linux.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -132,7 +132,7 @@ i.majac.icon-windows {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/windows.png);
+  background-image: url(./imgs/windows.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -141,7 +141,7 @@ i.majac.icon-android {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/android.png);
+  background-image: url(./imgs/android.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -150,7 +150,7 @@ i.majac.icon-ios {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/ios.png);
+  background-image: url(./imgs/ios.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -159,7 +159,7 @@ i.majac.icon-osx {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/osx.png);
+  background-image: url(./imgs/osx.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -168,7 +168,7 @@ i.majac.icon-aix {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(../imgs/os/aix.png);
+  background-image: url(./imgs/aix.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
