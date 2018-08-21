@@ -6,14 +6,15 @@
   "keywords": [
     "os", "system", "icon"
   ],
-  "homepage": "",
+  "homepage": "https://TakHyun-kang/os-system-icon",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp"
+    "build": "gulp",
+    "deploy": "gulp && gh-pages -d build"
   },
   "author": "TakHyun<azx1054@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/TakHyun-Kang/aos-system-icon.git",
+  "repository": "https://github.com/TakHyun-Kang/os-system-icon.git",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
