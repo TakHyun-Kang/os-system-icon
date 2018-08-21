@@ -1,0 +1,31 @@
+@import '../../src/os-system-icon';
+
+.title {
+  border: none !important;
+  padding: 0 !important;
+}
+.container {
+  border: 1px solid;
+  margin-top: 50px;
+  .row {
+    text-align: center;
+    .col-sm {
+      padding: 30px;
+      border: 1px solid;
+    }
+  }
+}
+
+i.majac {
+  @each $item, $i in $osIconList {
+    &.icon-#{$item} {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-image: url(#{$i});
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}

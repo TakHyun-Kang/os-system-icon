@@ -1,0 +1,174 @@
+.title {
+  border: none !important;
+  padding: 0 !important; }
+
+.container {
+  border: 1px solid;
+  margin-top: 50px; }
+  .container .row {
+    text-align: center; }
+    .container .row .col-sm {
+      padding: 30px;
+      border: 1px solid; }
+
+i.majac.icon-beos {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/beOS.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-centos {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/centos.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-debian {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/debian.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-fedora {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/fedora.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-freebsd {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/freebsd.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-mandriva {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/mandriva.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-os2 {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/os2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-redhat {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/redhat.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-suse {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/suse.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-symbian {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/symbian.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-ubuntu {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/ubuntu.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-unix {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/unix.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-linux {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/linux.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-windows {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/windows.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-android {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/android.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-ios {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/ios.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-osx {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/osx.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+i.majac.icon-aix {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../imgs/os/aix.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
