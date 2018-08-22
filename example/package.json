@@ -1,13 +1,17 @@
 {
-  "name": "os-system-icon",
+  "name": "example",
   "version": "1.0.0",
-  "description": "os-system-icon",
-  "main": "index.js",
+  "description": "os-system-icon example",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server src && node-sass src/index.scss src/index.css -w"
   },
   "author": "TakHyun",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.3"
   }
 }

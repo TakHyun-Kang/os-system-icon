@@ -38,12 +38,12 @@ gulp.task('sass', () => {
 });
 gulp.task('sass2', () => {
   return gulp.src(SRC.SASS)
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(DEST.SASS));
 });
 gulp.task('ex_sass', () => {
   return gulp.src(SRC.EX_SASS)
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(DEST.SASS));
 });
 gulp.task('images', () => {

@@ -22,3 +22,40 @@ $osIconList: (
   'osx': $imgSRC + 'osx.png',
   'aix': $imgSRC + 'aix.png',
 );
+
+// 함수로 사용
+@function os-icon($name) {
+  @each $item, $i in $osIconList {
+    @if $item == $name {
+      @return $i
+    }
+  }
+};
+
+// @include로 사용
+@mixin os-icon($name) {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  @each $item, $i in $osIconList {
+    @if $name == $item {
+      background-image: url($i);
+    }
+  };
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+};
+
+// class로 사용
+@each $item, $i in $osIconList {
+  &.os-icon-#{$item} {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(#{$i});
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

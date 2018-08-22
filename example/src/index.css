@@ -1,0 +1,13 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.css);
+.title {
+  border: none !important;
+  padding: 0 !important; }
+
+.container {
+  border: 1px solid;
+  margin-top: 50px; }
+  .container .row {
+    text-align: center; }
+    .container .row .col-sm {
+      padding: 30px;
+      border: 1px solid; }

@@ -4,7 +4,9 @@
   "description": "os-system-icon",
   "main": "src/os-system-icon.scss",
   "keywords": [
-    "os", "system", "icon"
+    "os",
+    "system",
+    "icon"
   ],
   "homepage": "https://TakHyun-kang/os-system-icon",
   "scripts": {
