@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.1.3",
     "http-server": "^0.11.1",
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.9.3",
+    "os-system-icon": "^1.0.0"
   }
 }

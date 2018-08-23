@@ -1,6 +1,6 @@
 {
   "name": "os-system-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "os-system-icon",
   "main": "src/os-system-icon.scss",
   "keywords": [
@@ -14,9 +14,12 @@
     "build": "gulp",
     "deploy": "gh-pages -d dist"
   },
-  "author": "TakHyun<azx1054@gmail.com>",
+  "author": "TakHyun <azx1054@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/TakHyun-Kang/os-system-icon.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakHyun-Kang/os-system-icon.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
@@ -26,5 +29,12 @@
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
     "gulp-util": "^3.0.8"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/TakHyun-Kang/os-system-icon/issues"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {}
 }
