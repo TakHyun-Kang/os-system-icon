@@ -1,6 +1,6 @@
 {
   "name": "os-system-icon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "os-system-icon",
   "main": "src/os-system-icon.scss",
   "keywords": [
@@ -25,7 +25,6 @@
     "babel-preset-es2015": "^6.24.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
     "gulp-util": "^3.0.8"
