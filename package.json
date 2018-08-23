@@ -1,6 +1,6 @@
 {
   "name": "os-system-icon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "os-system-icon",
   "main": "src/os-system-icon.scss",
   "keywords": [
@@ -14,7 +14,7 @@
     "build": "gulp",
     "deploy": "gh-pages -d dist"
   },
-  "author": "TakHyun <azx1054@gmail.com>",
+  "author": "TakHyun-Kang <azx1054@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",

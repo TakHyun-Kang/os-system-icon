@@ -1,9 +1,9 @@
-@import url(../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(/node_modules/bootstrap/dist/css/bootstrap.css);
 .os-icon-beos {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/beOS.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/beOS.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -12,7 +12,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/centos.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/centos.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -21,7 +21,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/debian.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/debian.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -30,7 +30,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/fedora.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/fedora.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -39,7 +39,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/freebsd.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/freebsd.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -48,7 +48,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/mandriva.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/mandriva.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -57,7 +57,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/os2.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/os2.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -66,7 +66,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/redhat.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/redhat.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -75,7 +75,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/suse.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/suse.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -84,7 +84,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/symbian.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/symbian.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -93,7 +93,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/ubuntu.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/ubuntu.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -102,7 +102,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/unix.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/unix.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -111,7 +111,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/linux.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/linux.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -120,7 +120,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/windows.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/windows.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -129,7 +129,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/android.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/android.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -138,7 +138,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/ios.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/ios.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -147,7 +147,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/osx.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/osx.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -156,7 +156,7 @@
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-image: url(./imgs/aix.png);
+  background-image: url(../node_modules/os-system-icon/src/imgs/aix.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
