@@ -1,6 +1,6 @@
 {
   "name": "os-system-icon",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "os-system-icon",
   "main": "src/os-system-icon.scss",
   "keywords": [
@@ -8,11 +8,11 @@
     "system",
     "icon"
   ],
-  "homepage": "https://TakHyun-kang/os-system-icon/",
+  "homepage": "https://takhyun-kang.github.io/os-system-icon/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp",
-    "deploy": "gh-pages -d example"
+    "deploy": "gh-pages -d example/dist"
   },
   "author": "TakHyun-Kang <azx1054@gmail.com>",
   "license": "ISC",

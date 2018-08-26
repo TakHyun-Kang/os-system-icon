@@ -25,7 +25,7 @@ Import the file to your project and use the variables.
 #### Your HTML
 ````html
 <head>
-    <link rel="stylesheet" href="<your path>/node_modules/os-system-icon/src/os-system-icon.css">
+    <link rel="stylesheet" href="node_modules/os-system-icon/src/os-system-icon.css">
 </head>
 <body>
     <div>
@@ -50,7 +50,7 @@ Import the file to your project and use the variables.
 ````
 #### Your Sass, SCSS
 ````scss
-    @import '<your path>/node_modules/os-system-icon/src/os-system-icon.scss';
+    @import 'node_modules/os-system-icon/src/os-system-icon.scss';
 
     // Default icon
     .centos {
