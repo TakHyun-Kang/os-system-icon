@@ -8,8 +8,8 @@ import pug from 'gulp-pug';
 
 const DIR = {
   SRC: 'src',
-  // DEST: 'dist',
-  DEST: '../example',
+  DEST: 'dist',
+  // DEST: '../example',
 };
 
 const SRC = {
@@ -32,17 +32,17 @@ gulp.task('sass', () => {
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(DEST.SASS));
 });
-// gulp.task('clean', () => {
-//   return del.sync([DIR.DEST]);
-// });
+gulp.task('clean', () => {
+  return del.sync([DIR.DEST]);
+});
 
 gulp.task('watch', () => {
   gulp.watch(SRC.SASS, ['sass']);
-  gulp.watch(SRC.EX_SASS, ['ex_sass']);
+  // gulp.watch(SRC.EX_SASS, ['ex_sass']);
   gulp.watch(SRC.IMAGES, ['images']);
   gulp.watch(SRC.PUG, ['pug']);
 });
 
-gulp.task('default', ['watch', 'sass', 'pug'], () => {
+gulp.task('default', ['watch', 'sass', 'pug', 'clean'], () => {
   gutil.log('Gulp is running');
 });
