@@ -1,30 +1,54 @@
 @import '../node_modules/os-system-icon/src/os-system-icon.scss';
 @import '/node_modules/bootstrap/dist/css/bootstrap.css';
 
-.title {
-  border: none !important;
-  padding: 0 !important;
+* {
+  margin: 0;
+  padding: 0;
+  color: #2D384C;
 }
-.container {
-  border: 1px solid;
-  margin-top: 50px;
-  .row {
-    text-align: center;
-    .col-sm {
-      padding: 30px;
-      border: 1px solid;
+section {
+  margin: auto;
+  border-bottom: 2px solid #E3E5EA;
+  padding: 20px;
+  .container {
+    .row {
+      text-align: center;
+      flex-direction: column;
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      .col-sm {
+        font-size: 20px;
+        h1 {
+          padding: 30px;
+        }
+      }
+      .iconBox {
+        padding: 30px;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin: 15px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 15px 3px #6B6A69;
+        .className {
+          width: 75px;
+          margin: 0 auto;
+        }
+      }
+
+      // .centos {
+      //   @include os-icon('centos');
+      // }
+      // .debian {
+      //   display: inline-block;
+      //   width: 35px;
+      //   height: 35px;
+      //   background-image: url(os-icon('debian'));
+      //   background-position: center;
+      //   background-size: contain;
+      //   background-repeat: no-repeat;
+      // }
     }
-    // .centos {
-    //   @include os-icon('centos');
-    // }
-    // .debian {
-    //   display: inline-block;
-    //   width: 35px;
-    //   height: 35px;
-    //   background-image: url(os-icon('debian'));
-    //   background-position: center;
-    //   background-size: contain;
-    //   background-repeat: no-repeat;
-    // }
   }
 }
