@@ -4,26 +4,21 @@ import gulp from 'gulp';
 import gutil from 'gulp-util';
 import del from 'del';
 import sass from 'gulp-sass';
-import imagemin from 'gulp-imagemin';
 import pug from 'gulp-pug';
 
 const DIR = {
   SRC: 'src',
-  IMG: 'src/imgs',
-  DEST: 'dist',
+  // DEST: 'dist',
+  DEST: '../example',
 };
 
 const SRC = {
   SASS: DIR.SRC + '/*.scss',
-  IMAGES: DIR.IMG + '/*',
-  HTML: DIR.SRC + '/*.html',
   PUG: DIR.SRC + '/*.pug'
 };
 
 const DEST = {
   SASS: DIR.DEST + '/',
-  IMAGES: DIR.DEST + '/imgs',
-  HTML: DIR.DEST + '/',
   PUG: DIR.DEST + '/',
 };
 
@@ -37,14 +32,9 @@ gulp.task('sass', () => {
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(DEST.SASS));
 });
-gulp.task('images', () => {
-  return gulp.src(SRC.IMAGES)
-    .pipe(imagemin())
-    .pipe(gulp.dest(DEST.IMAGES));
-});
-gulp.task('clean', () => {
-  return del.sync([DIR.DEST]);
-});
+// gulp.task('clean', () => {
+//   return del.sync([DIR.DEST]);
+// });
 
 gulp.task('watch', () => {
   gulp.watch(SRC.SASS, ['sass']);
@@ -53,6 +43,6 @@ gulp.task('watch', () => {
   gulp.watch(SRC.PUG, ['pug']);
 });
 
-gulp.task('default', ['clean', 'watch', 'sass', 'images', 'pug'], () => {
+gulp.task('default', ['watch', 'sass', 'pug'], () => {
   gutil.log('Gulp is running');
 });
