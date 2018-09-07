@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+@import './osc.json';
 // $imgSRC: './imgs/';
 // $imgSRC: '../node_modules/os-system-icon/src/imgs/';
 $imgSRC: 'https://lh3.googleusercontent.com/';
@@ -24,6 +25,25 @@ $osIconList: (
   'osx': $imgSRC + 't207ftOnXqKT8fLc7HvdrTlQ14oTXMYR7P5JSKP9qr4GFZsfq-EFn3FFSOmaptYzVQEv9ogxb4x4Sgoy7euK_vl9CS-BdojGD07kVU-7a0gjbz4GoAJOpWCZIJpFg5YWx7akiwDsJ4UeaMCPcmF0S9-EO9Hi-x-bjpnYeR5gA6_YsShzSAPRJ-i2Ro9W6gmeWGapgXBp0OnQH_-XvogZlKIF-nrWEz7utpJVQ4tauhjyLG5mTeUpEDwcjmIBdjMtL2098ahCAUIgKw5ZbCUu_j2YPBtH7SdAi0MJA7dXUvNgGgJYNZoO7l3my927l_QWQoHajWicdlzq1WMaR-Te3wBKvGanXmrKo42T7A8VnV0z_JM3OuGjcj4OZZsPaLEZUqDKCzKRdMX6_tqh57USw72G2RSxMDRq_F8YhbIUmhn7ji7YFFTI4QYDnQ9bZu8pLDF199pJuApj73zDDeYrofJybikgOLON2kl1O-U1z12yPNQmh5yl7WgL92SMMDqg-jSnmhRvHZjGECpK_QLWMHAlCe7Vy0YAZ4Jd70NRn0K4PP6bdzDRT5qp23nzRJeMQ5ohBAk-Ln1skK048i7TWsZLNmah=w64-h64-p-k-nu',
   'aix': $imgSRC + 'lhwo3FyWqOt2XB-bgboW8Z_obL45tL2U5aIb1ezJglU3AOT6xtZ25tUxgJfBfW0v1VqqNzT32Aq6KD1WBC_ycUTK5H2Q05Ytsa-zJFI-N3HfgUOp1jK9RGZX8u267GwzZM4QsohxEhK7qAN6sGhqD0ke_Mj1nhsEHNeE0L4hYWfm9Jz293ff5s-n_yC4tXcu7O0l8sglcqGG6iK10jCm9T5QrjUJQnfzuC1VPyJ-1lI2Ft5iYtneokGQUQXTBeDwTTEf4IEa7waGuMqJzGJvqKK_FUTa7Vo8BAbamgQRfloSWjDNio4fYo8XJkuQw7GsItUBlNWbJmn4DUNc2ulN1yiAn3vIH_jnGeOJ2VvtCagCX2rmg31rGxo-qThhC4ZgCB6uq_Y9KKM69_eC7mJPuWj3Bs-ypZvgM-fTehqT9zSxY8q_5-FvVQgxGnLll2EsyQiUq35VZMfARFxcOEvuj42QyaPZijsoCeIYYW-ATmGtuGoS8viFbYshZrmpAstJfTfcVDYpvWxlPc1xmjroNKUTHCoebbbqSlQLOrycjB9PXqNrnVvzpzPw-fVpRAC9c6TmjyHsqA5UdMe6a3Wq-DcXn1il=w64-h64-p-k-nu',
 );
+
+// $testSRC: './osc.json';
+.test {
+  background: map-get($selection, order),
+};
+// $test: (
+//   'test1': map-get($selection, order),
+// );
+// @each $item, $i in $test {
+//   &.test-#{$item} {
+//     display: inline-block;
+//     width: 35px;
+//     height: 35px;
+//     background-image: url(#{$i});
+//     background-position: center;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//   }
+// }
 
 // 함수로 사용
 @function os-icon($name) {
